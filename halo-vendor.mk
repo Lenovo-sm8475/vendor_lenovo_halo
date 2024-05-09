@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/lenovo/halo/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/lenovo/halo/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
-    vendor/lenovo/halo/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/lenovo/halo/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/lenovo/halo/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/lenovo/halo/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -196,8 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb \
     vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp \
     vendor/lenovo/halo/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml \
-    vendor/lenovo/halo/proprietary/vendor/etc/backend_conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/backend_conf.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/3840black.UBWCTP10:$(TARGET_COPY_OUT_VENDOR)/etc/camera/3840black.UBWCTP10 \
@@ -205,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/cal_w48_u16_default.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cal_w48_u16_default.bin \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
-    vendor/lenovo/halo/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/lenovo/halo/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -252,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json \
     vendor/lenovo/halo/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
@@ -359,7 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/media_profiles_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_ukee.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/media_taro/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_taro/video_system_specs.json \
     vendor/lenovo/halo/proprietary/vendor/etc/media_ukee/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_ukee/video_system_specs.json \
-    vendor/lenovo/halo/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
@@ -537,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_sensor_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_sensor_0.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_sensor_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_sensor_1.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal_user_case.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_user_case.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -1778,7 +1773,6 @@ PRODUCT_PACKAGES += \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimservicelibrary \
-    audiosphere \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
