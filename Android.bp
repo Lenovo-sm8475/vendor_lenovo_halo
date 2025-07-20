@@ -14027,7 +14027,6 @@ android_app_import {
 	name: "ZuiCamera",
 	owner: "lenovo",
 	apk: "proprietary/product/app/ZuiCamera/ZuiCamera.apk",
-    overrides: ["Flash", "Aperture"],
 	dex_preopt: {
 		enabled: false,
 	},
