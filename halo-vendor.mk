@@ -225,15 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/lenovo/halo/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/lenovo/halo/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_2.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
@@ -291,30 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/lenovo/halo/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_battery_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_battery_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_battery_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_battery_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_battery_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_battery_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_common_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_common_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_common_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_common_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_3.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_4.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_5.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_5.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_6.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_7.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_7.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_8.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_8.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_cpu_9.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_cpu_9.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_fan_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_fan_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_gpu_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_gpu_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_gpu_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_gpu_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_gpu_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_gpu_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_gpu_3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_gpu_3.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_gpu_4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_gpu_4.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_sensor_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_sensor_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_sensor_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_sensor_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/thermal_user_case.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_user_case.conf \
     vendor/lenovo/halo/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/lenovo/halo/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
     vendor/lenovo/halo/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
