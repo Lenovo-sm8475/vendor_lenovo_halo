@@ -224,15 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/lenovo/halo/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/lenovo/halo/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_CPU_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_CPU_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_DDR_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_DDR_2.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_0.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_1.conf \
-    vendor/lenovo/halo/proprietary/vendor/etc/scheduler_config_LLCC_2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/scheduler_config_LLCC_2.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
     vendor/lenovo/halo/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
@@ -825,8 +816,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
     vendor/lenovo/halo/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
     vendor/lenovo/halo/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
-    vendor/lenovo/halo/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so
-
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/lenovo/halo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
 PRODUCT_PACKAGES += \
     c2.dolby.avc.dec \
@@ -1308,4 +1299,7 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     xtwifi-inet-agent \
     ZuiCamera \
-    ZuiCameraAssistant
+    ZuiCameraAssistant \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
+    com.android.hotwordenrollment.common.util
