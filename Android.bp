@@ -14350,3 +14350,28 @@ install_symlink {
     installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
     symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
+
+android_app_import {
+	name: "ZuiCamera",
+	owner: "lenovo",
+	apk: "proprietary/product/app/ZuiCamera/ZuiCamera.apk",
+    overrides: ["Flash"],
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	presigned: true,
+    preprocessed: true,
+}
+
+android_app_import {
+	name: "ZuiCameraAssistant",
+	owner: "lenovo",
+	apk: "proprietary/product/app/ZuiCameraAssistant/ZuiCameraAssistant.apk",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	presigned: true,
+    preprocessed: true,
+}
